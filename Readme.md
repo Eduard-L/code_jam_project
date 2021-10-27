@@ -34,4 +34,4 @@ Make the app responsive to all screen resolutions.
 ### Team arrayOfLight
 
 **UI/UX Design** Lina Khazova
-**Developers** Eduard Loktev && Devin Jaggernauth
+**Developers** Eduard Loktev && Devin Jaggernauth!
