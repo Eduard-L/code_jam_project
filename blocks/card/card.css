@@ -1,0 +1,6 @@
+.card{
+    margin-right:30px;
+}
+.card:last-of-type{
+    margin-right:0px;
+}

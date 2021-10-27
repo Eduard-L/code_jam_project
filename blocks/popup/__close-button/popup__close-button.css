@@ -1,0 +1,12 @@
+.popup__close-button{
+    background-image: url(../../../images/x-mark-32.jpg);
+    width: 36px;
+    height: 36px;
+    background-color:transparent;
+    border-style: none;
+    background-repeat: no-repeat;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+}

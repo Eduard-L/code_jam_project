@@ -1,0 +1,12 @@
+.card__title{
+max-width: 255px;
+font-family: 'Quattrocento', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #191B1E;
+margin-top:50px;
+margin-bottom: 0px;
+}

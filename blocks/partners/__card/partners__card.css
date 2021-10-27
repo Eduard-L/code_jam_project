@@ -1,0 +1,6 @@
+.partners__card{
+    margin-right:88px;
+}
+.partners__card:last-of-type{
+    margin-right:0px;
+}

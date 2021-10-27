@@ -1,0 +1,18 @@
+.menu__link{
+text-decoration: none;
+text-transform: uppercase;
+font-style: normal;
+font-family: 'Quattrocento',sans-serif;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #3E4255;  
+transition: color .3s linear; 
+}
+.menu__link:hover{
+    color: #7C9397;
+}
+.menu__link:active{
+    color: #302B32;
+ }
+

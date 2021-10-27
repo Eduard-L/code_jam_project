@@ -1,0 +1,27 @@
+.cards__button{
+background: #DD3E42;
+border-radius: 8px;
+font-family: 'Quattrocento' ,sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+margin:50px 0 0 0;
+min-width: 349px;
+height: 42px;
+border-style: none;
+cursor: pointer;
+transition: background-color .3s linear;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.cards__button:hover{
+    background-color: #F97773;
+}
+.cards__button:active{
+    background-color:#C23E42;
+ }

@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:134px;
+    margin-bottom: 44px;
+    max-width: 1110px;
+    margin-left:auto;
+    margin-right:auto;
+}

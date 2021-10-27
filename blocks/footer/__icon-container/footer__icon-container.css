@@ -1,0 +1,7 @@
+.footer__icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 144px;
+}

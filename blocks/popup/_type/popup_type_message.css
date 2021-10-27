@@ -1,0 +1,8 @@
+.popup_type_message{
+    max-height:254px;
+    margin:auto;
+    background-color: white;
+    max-width: 500px;
+    transform: translate(0px);
+    
+}

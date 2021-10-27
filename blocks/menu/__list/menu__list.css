@@ -1,0 +1,9 @@
+.menu__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    min-width: 271px;
+
+}

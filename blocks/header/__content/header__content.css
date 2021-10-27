@@ -1,0 +1,6 @@
+.header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   max-width: 396px;
+}

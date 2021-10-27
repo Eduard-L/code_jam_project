@@ -1,0 +1,5 @@
+.popup_is-opened{
+    
+    visibility: visible;
+    transform: translate(0px);
+}
