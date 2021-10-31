@@ -1,4 +1,22 @@
 .menu__logo{
     margin-top: 45px;
     border-radius:10px;
+    position: fixed;
+    left:50%;
+    top:77px;
+     transform: translate(-50%, -50%);
+}
+@media screen and (max-width:900px) {
+    .menu__logo{
+        width: 120px;
+        top: 60px;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    .menu__logo{
+       position: absolute;
+       left:45%;
+    }
+    
 }

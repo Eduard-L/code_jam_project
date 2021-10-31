@@ -1,4 +1,14 @@
 .header__image{
    align-self: flex-end;
    max-width: 487px;
+   width: calc(100%/4);
+   min-width: 200px;
+}
+@media screen and (max-width:670px) {
+   .header__image{
+      min-width: 320px;
+      align-self: center;
+      
+   }
+   
 }

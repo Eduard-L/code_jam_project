@@ -1,0 +1,29 @@
+.menu__button{
+    display: none;
+    background-image: url(../../../images/button__menu.svg);
+}
+@media screen and (max-width:670px) {
+    .menu__button{
+    display: block;
+    position: fixed;
+    width: 48px;
+    height: 32px;
+    border-style: none;
+    background-color: white;
+    margin-top: 13px;
+    top: 40px;
+    left: 23px;
+    cursor: pointer;
+    z-index: 3;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .menu__button{
+        width: 31px;
+        height: 20px;
+        background-repeat: no-repeat;
+    background-size: contain;
+    }
+    
+}

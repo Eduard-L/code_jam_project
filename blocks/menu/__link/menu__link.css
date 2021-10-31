@@ -15,4 +15,24 @@ transition: color .3s linear;
 .menu__link:active{
     color: #302B32;
  }
+ @media screen and (max-width:800px) {
+    .menu__link{
+        font-size: 14px;
+    line-height: 26px;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    .menu__link{
+        margin-top: 50px;
+        font-size: 26px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .menu__link{
+       font-size: 20px;
+    }
+    
+}
 

@@ -7,3 +7,19 @@
     min-width: 271px;
 
 }
+@media screen and (max-width:800px) {
+    .menu__list{
+        min-width: 200px;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    .menu__list{
+        flex-direction: column;
+        margin-top: 0px;
+        text-align: center;
+        min-width: 100%;
+       
+    }
+    
+ }

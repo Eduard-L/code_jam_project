@@ -6,6 +6,12 @@
     line-height: 64px;
     color: #000000;
     margin: 213px 0px 0px 0px ;
-    
-    
+    }
+    @media screen and (max-width:800px) {
+        .cards__title{
+            margin:100px 0px 0px 0px;
+            font-size: 35px;
+            line-height: 40px;
+        }
+        
     }

@@ -10,3 +10,11 @@ color: #191B1E;
 margin-top:50px;
 margin-bottom: 0px;
 }
+@media screen and (max-width:900px) {
+    .card__title{
+        font-size: 10px;
+        line-height: 20px;
+        margin-top:20px;
+    }
+    
+}

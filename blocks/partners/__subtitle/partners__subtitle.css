@@ -11,3 +11,11 @@ margin:53px 0 0 0;
 
 
 }
+@media screen and (max-width:800px) {
+    .partners__subtitle{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 550px;
+    }
+    
+}

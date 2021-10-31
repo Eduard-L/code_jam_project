@@ -1,8 +1,8 @@
 .header__button-link{
-    color: white;
-    text-decoration: none;
+        color: white;
+        text-decoration: none;
     
- margin-top:94px;
+        margin-top:94px;
         background: #DD3E42;
         border-radius: 8px;
         font-family: 'Quattrocento', sans-serif;
@@ -16,7 +16,7 @@
         max-width: 349px;
         margin-left: auto;
         margin-right: auto;
-        min-width: 349px;
+        width: 100%;
         cursor: pointer;
         transition: background-color .3s linear;
         text-align: center;
@@ -30,4 +30,10 @@
         }
         .header__button-link:active{
            background-color:#C23E42;
+        }
+        @media screen and (max-width:800px) {
+            .header__button-link{
+               margin-top:50px;
+            }
+            
         }

@@ -1,6 +1,12 @@
 .partners__card{
     margin-right:88px;
 }
+@media screen and (max-width:800px) {
+    .partners__card{
+        margin-right:40px;
+    }
+    
+}
 .partners__card:last-of-type{
     margin-right:0px;
 }
