@@ -20,10 +20,11 @@
 }
 @media screen and (max-width:400px) {
     .menu__button{
-        width: 31px;
+        width: 30px;
         height: 20px;
         background-repeat: no-repeat;
     background-size: contain;
+    background-color: transparent;
     }
     
 }
