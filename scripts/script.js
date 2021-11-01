@@ -23,11 +23,14 @@ function closePopup(popup){
 
 joinInLink.addEventListener('click',()=> {openPopup(popupFormJoin); closePopup(contactPopup)} );
 contactLink.addEventListener('click',()=> {openPopup(contactPopup);closePopup(popupFormJoin) });
-contactPopup.addEventListener('submit',(evt)=>{evt.preventDefault(); openPopup(messagePopup);});
+contactPopup.addEventListener('submit',(evt)=>{
+  evt.preventDefault();
+   openPopup(messagePopup); 
+   contactPopup.querySelector('.popup__form').reset();});
 
 
 const allPopups= [...document.querySelectorAll('.popup')];
-allPopups.forEach((popup)=>popup.addEventListener("click", (evt)=>{
+allPopups.forEach((popup)=>popup.addEventListener("mousedown", (evt)=>{
   if (evt.target.classList.contains('popup_is-opened')){
     console.log(evt.target);
 
